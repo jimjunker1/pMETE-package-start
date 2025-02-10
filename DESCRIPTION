@@ -1,4 +1,4 @@
-Package: pMETE_package_start
+Package: pMETEpackage
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
@@ -11,6 +11,8 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Config/Needs/website: rmarkdown
+Imports: 
+    zipfR
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10),
 LazyData: true
